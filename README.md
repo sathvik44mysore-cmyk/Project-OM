@@ -43,4 +43,4 @@ JARVIS (Just A Rather Very Intelligent System) is a modular AI assistant that ca
 - **System Design:** Building a scalable, modular architecture ready for new tools and agents.
 
 ---
-*Created by Sathvik Lokesh for Portfolio Building.*
+*Created by Sathvik Lokesh.*
