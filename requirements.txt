@@ -1,0 +1,9 @@
+langchain
+langgraph
+mcp
+torch
+torchvision
+torchaudio
+requests
+python-dotenv
+ollama
