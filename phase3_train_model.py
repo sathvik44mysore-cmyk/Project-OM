@@ -9,20 +9,31 @@ import os
 # In a real project, you'd use a large open dataset. 
 # Here, we create a small one to understand the workflow.
 data = [
-    ("What are the latest AI trends?", 0),  # 0: Research
+    # 0: Research
+    ("What are the latest AI trends?", 0),
     ("Search for news about electric cars.", 0),
     ("Analyze the automotive industry growth.", 0),
     ("Tell me about the new LLM models.", 0),
+    ("Research the impact of hydrogen fuel cells.", 0),
+    ("Find trends in renewable energy.", 0),
+    ("What is the current state of quantum computing?", 0),
     
-    ("Check my code for bugs.", 1),         # 1: DevOps
+    # 1: DevOps
+    ("Check my code for bugs.", 1),
     ("Review this github repository.", 1),
     ("Fix the error in my python script.", 1),
     ("How do I deploy this docker container?", 1),
+    ("Scan my repo for vulnerabilities.", 1),
+    ("Optimize my database queries.", 1),
+    ("Set up a CI/CD pipeline.", 1),
     
-    ("Hello JARVIS, how are you?", 2),      # 2: General
+    # 2: General
+    ("Hello JARVIS, how are you?", 2),
     ("Tell me a joke.", 2),
     ("What time is it?", 2),
-    ("Who created you?", 2)
+    ("Who created you?", 2),
+    ("Tell me a story.", 2),
+    ("What is your favorite color?", 2)
 ]
 
 # Simple Bag-of-Words preprocessing
